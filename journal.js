@@ -17,3 +17,8 @@ function square(n) {
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
+
+// Get the current date as a string
+function getCurrentDate() {
+  return new Date().toDateString();
+}
