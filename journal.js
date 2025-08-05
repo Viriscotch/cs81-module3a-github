@@ -2,3 +2,8 @@
 function greet(name) {
   return "Hello, " + name + "!";
 }
+
+// Check if a number is even
+function isEven(n) {
+  return n % 2 === 0;
+}
